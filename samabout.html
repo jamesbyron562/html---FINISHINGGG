@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Achievements - My Personal Website</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+          /* General Body and Font Styling */
+          body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #111, #444);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Header Styling */
+        header {
+            background: linear-gradient(135deg, #ff3b3b, #5b3cc4);
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        
+        header h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4rem;
+            color: #fff;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header p {
+            font-family: 'Lora', serif;
+            font-size: 1.5rem;
+            color: #eee;
+            margin-top: 10px;
+        }
+
+        /* Main Content Section */
+        .main-content {
+            padding: 80px 50px;
+            text-align: center;
+            background: #222;
+            min-height: 100vh;
+        }
+
+        h2 {
+            font-family: 'Lora', serif;
+            color: #ff3b3b;
+            font-size: 3rem;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        .achievement {
+            background-color: #333;
+            padding: 25px;
+            border-radius: 15px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+        }
+
+        .achievement h3 {
+            font-family: 'Bebas Neue', sans-serif;
+            color: #ff3b3b;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .achievement p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .achievement:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Buttons and Links Styling */
+        .button {
+            display: inline-block;
+            background: #ff3b3b;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #080000;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #232323;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        footer a {
+            color: #ff3b3b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            header {
+                padding: 30px;
+            }
+
+            .main-content {
+                padding: 50px 20px;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            .achievements {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .achievement {
+                width: 90%;
+            }
+        }
+
+        /* Button Styling for Header */
+        .header-button {
+            display: inline-block;
+            background: #ff7300;
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-left: 20px; /* Adjust spacing from the text */
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Table Tennis Journey</h1>
+        <p>Achievements and Highlights</p>
+    </header>
+
+    <a href="sam.html" class="header-button">Return</a> <!-- Added Button -->
+
+    <div class="main-content">
+        <h2>My Achievements</h2>
+        <div class="achievements">
+            <div class="achievement">
+                <h3>About Me</h3>
+                <p>Sam Languido</p>
+                <p>Birthday: March 5, 2006</p>
+                <p>From: Rosario Aloguinsan</p>
+                <p>Age: 18</p>
+            </div>
+            <div class="achievement">
+                <h3>Biography</h3>
+                <p>i'm am Sam Languido is a passionate athlete, excelling in table tennis and enjoying basketball among others sports. My life is enriched by meaningful connections with family and close friends who provide unwavering support and inspire growth both on and off the court.</p>
+            </div>
+            <div class="achievement">
+                <h3>Intramurals Champion</h3>
+                <p>This year, I achieved one of my proudest moments by becoming the table tennis champion during our school intramurals. The competition was fierce, but my dedication and training paid off, earning me the title and inspiring others to pursue their own goals in sports.</p>
+            </div>
+            <div class="achievement">
+                <h3>Gameplay</h3>
+                <p>My journey in table tennis started with countless practice sessions, where I learned the fundamentals and refined my skills. Every match has been a lesson, helping me grow both as a player and as a person.</p>
+            </div>
+            <div class="achievement">
+                <h3>Contact</h3>
+                <a href="https://www.facebook.com/sam.languido.2024"><img src="FB.png" alt="FB"></a><br>
+                <br>
+                <a href="https://www.tiktok.com/@languido10?lang=en"><img src="TIKTOK.png" alt="TIKTOK"></a><br>
+                <br>
+                <a href="https://www.instagram.com/sammie141234/"><img src="INSTAGRAM.png" alt="INSTAGRAM"></a><br>
+            </div>
+        </div>
+        <a href="https://youtu.be/CJaOTrt_YOs" class="button">Just click my Highlights link for proof :)</a>    
+        <a href="https://www.facebook.com/sam.languido.2024/about" class="button" style="margin: 20px;">And other proof for my Facebook account.</a> 
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sam Languido. All rights reserved.</p><br>
+    </footer>
+</body>
+</html>
